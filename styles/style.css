@@ -94,12 +94,7 @@
   padding: 32px;
 
 }
-.foot{
-  background-image: url(../assets/handshake.jpg) no-repeat center center fixed;
-  background-size: cover;
-  border-radius: 10px;
-  weight: 1140px;
-}
+
 .ftb{
   display: flex; 
 }
@@ -107,10 +102,18 @@
   color:white ;
   font-size: 32px;
   font-weight: bold;
+  margin-top:64px ;
 }
 .ftt{
   font-size: 16px;
   font-weight: 400;
+}
+.ftto{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 16px 39px 24px 39px;
+
+  color:white ;
 }
 .current{
   font-size: 32px;
@@ -145,6 +148,7 @@ width: 274.17px;
   padding: 40px;
   gap: 24px;
   justify-content: center;
+  padding: 80px 97px;
 }
 .skill{
   padding: 40px;
@@ -154,5 +158,43 @@ width: 274.17px;
   margin-top: 90px;
 }
 .main-title{
-  padding: 90px 144px 48px 144px;
-}
+    padding: 90px 144px 48px 144px
+  }
+    .support-img{
+width: 1140px;
+height: 313px;
+border-radius: 16px;
+    }
+     .but{
+      text-align: center;
+     }
+    
+    .sec-description{
+      text-align:center ;
+      padding: 64px 48px ;
+    }
+    .sec-bannar-content{
+      justify-content:center ;
+      background-image: url(../assets/handshake.jpg);
+      width: 1140px;
+      height: 313px;
+      border-radius: 16px;
+      background-position: center;
+    
+       margin:50px 300px 80px 300px ; 
+       
+      
+    }
+    .suggest{
+      color: #0D1321;
+      width: 548px;
+      font-size: 16;
+      font-weight: 400;
+    }
+    .submit{
+      font-size: 20;
+      font-weight: 600;
+      color:black ;
+      width: 120px;
+    }
+  
